@@ -8,8 +8,8 @@ PAR=${NAMEDIR}/parameters.txt
 # define coalescence time, observed masses, and waveform parameters
 TRIGGER_TIME=1126259462.0
 INJ_APPROX=IMRPhenomPv2threePointFivePN
-MASS1=40.
-MASS2=10.
+MASS1=15.
+MASS2=5.
 RA=2.21535724066
 DEC=-1.23649695537
 THETA_JN=2.7  ### <<---- this parameter is no longer relevant
@@ -22,8 +22,8 @@ INJ_F_MIN=20.
 TAPER="start"
 
 # Spin parameters
-MIN_SPIN1=0.99
-MAX_SPIN1=0.99
+MIN_SPIN1=0.75
+MAX_SPIN1=0.75
 MIN_KAPPA1=0.0
 MAX_KAPPA1=0.0
 MIN_SPIN2=0.0
@@ -49,8 +49,8 @@ IFOS="H1 L1"
 STRAIN="H1:aLIGOZeroDetHighPower L1:aLIGOZeroDetHighPower"
 SAMPLE_RATE=2048
 F_MIN=20.
-N_WALKERS=5000
-N_ITERATIONS=12000
+N_WALKERS=2000
+N_ITERATIONS=6000
 N_CHECKPOINT=1000
 PROCESSING_SCHEME=cpu
 NPROCS=12
