@@ -36,18 +36,18 @@ folder=directorys[:21]
 print folder
 
 tc_inj= 1126259462.0 
-mass1_inj = 15. 
-mass2_inj =5. 
+mass1_inj = 20. 
+mass2_inj = 20. 
 ra_inj = 2.21535724066 
 dec_inj = -1.23649695537 
-inclination_inj = 0.0 
+inclination_inj = 1.0471975512
 coa_phase_inj = 0.0 
 polarization_inj = 0.8 
 theta_JN_inj = 2.7 
 distance_inj = 500000
 
-spin1_a_inj = 0.75
-spin1_azimuthal_inj = 0.75
+spin1_a_inj = 0.25
+spin1_azimuthal_inj = 0.25
 spin1_polar_inj =0.0
 spin2_a_inj = 0.0 
 spin2_azimuthal_inj = 0.0
